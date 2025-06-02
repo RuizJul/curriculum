@@ -1,161 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curriculum vitae de Julian Ruiz, experiencia, educación y habilidades profesionales.">
-    <meta name="author" content="Julian Ruiz">
-    <title>Curriculum Vitae - Jlian Ruiz</title>
+    <meta charset="UTF-8" />
+    <title>Currículum de Julian Ruiz</title>
+    <meta name="keywords" content="CV, Currículum, Julian Ruiz, habilidades, experiencia" />
+    <meta name="author" content="Julian Ruiz" />
+    <meta name="contact" content="julianruiz@email.com, +593 99 123 4567" />
+    <meta name="skills" content="Comunicación efectiva, Programación, Trabajo en equipo" />
+    <meta name="summary" content="Estudiante de Ingeniería en Computación con experiencia en desarrollo de software y análisis de necesidades del cliente." />
+    <meta name="education" content="Colegio San José, Colegio Particular Mundo América, Escuela Superior Politécnica del Litoral (Actual)" />
+    <meta name="references" content="Referencias personales disponibles bajo solicitud" />
+    <link rel="stylesheet" href="estilos.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Curriculum Julian Ruiz</h1>
-        <nav>
-            <ul>
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#referencias">Referencias</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EZEfN5z8Mlg?si=_4rQiptJi1snkboi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-        <section id="perfil">
-            <h2>Perfil</h2>
-            <p>Breve descripción sobre ti, tus intereses y objetivos profesionales.</p>
-            <img https://placehold.co/150x150" alt="Foto de perfil">
-        </section>
-        <section id="experiencia">
-            <h2>Experiencia</h2>
-            <p>Detalle de tu experiencia laboral relevante.</p>
-        </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-            <p>Información sobre tu formación académica.</p>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <p>Lista de tus habilidades técnicas y blandas.</p>
-        </section>
-        <section id="contacto">
-    <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Datos para que puedan contactarte.</p>
+    <nav id="nv" aria-label="Navegación principal">
+        <ul>
+            <li><a href="#perfil">Nombre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-    <p>Visita mi sitio web profesional en 
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>.
-    </p>
+    <div class="contenedor">
+        <aside class="leftcont">
+            <section id="perfil" class="perfil">
+                <img id="photo" src="img/FotoJR.jpg" alt="Foto de perfil de Julian Ruiz" style="display:block; margin: 0 auto; border-radius: 50%;" />
+                <p><strong>Julian Ruiz</strong></p>
+                <p>Estudiante de la
+                    <a href="https://www.espol.edu.ec/" target="_blank" rel="noopener noreferrer">Escuela Superior Politécnica del Litoral</a>
+                </p>
+                <p>
+                    Apasionado por el aprendizaje constante y el desarrollo de software, busco fortalecer mis habilidades técnicas y colaborar en proyectos que generen impacto positivo en el equipo y la comunidad.
+                </p>
+            </section>
+        </aside>
 
-    <ol>
-        <li>Enviar mensaje</li>
-        <li>Esperar respuesta</li>
-        <li>Agendar entrevista</li>
-    </ol>
+        <main class="rigcont" role="main">
+            <h1 class="playfair-display" id="titulo">Currículum Vitae de Julian Ruiz</h1>
+            <h2 class="playfair-display">Ing. en Computación</h2>
 
-    <ul>
-        <li>Responsabilidad</li>
-        <li>Trabajo en equipo</li>
-        <li>Comunicación</li>
-    </ul>
+            <section aria-labelledby="aboutme-title">
+                <h2 class="martel-semibold" id="aboutme-title">Acerca de mí</h2>
+                <p>
+                    Estudiante de Ingeniería en Computación con interés en diseño UX, desarrollo web y proyectos culturales. Me esfuerzo en mantenerme actualizado y aportar valor en equipo.
+                </p>
+            </section>
 
-    <table>
-        <tr>
-            <th></th>
-            <th>2023</th>
-            <th>2024</th>
-        </tr>
-        <tr>
-            <th>Proyectos</th>
-            <td>5</td>
-            <td>8</td>
-        </tr>
-        <tr>
-            <th>Clientes</th>
-            <td>3</td>
-            <td>6</td>
-        </tr>
-    </table>
+            <section id="habilidades">
+                <h2 class="subtitle martel-semibold">Habilidades</h2>
+                <ol>
+                    <li>Desarrollo de software: Java, Python, C</li>
+                    <li>Diseño de experiencia de usuario (UX) y diseño centrado en el usuario</li>
+                    <li>Gestión de proyectos y trabajo colaborativo</li>
+                    <li>Investigación y análisis de necesidades del usuario</li>
+                </ol>
+                <h3 class="subtitle martel-semibold">Herramientas</h3>
+                <table class="mi-tabla" style="border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="playfair-display">Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="playfair-display">Figma</th>
+                            <td class="martel-semibold">Intermedio</td>
+                        </tr>
+                        <tr>
+                            <th class="playfair-display">Visual Studio Code</th>
+                            <td class="martel-semibold">Avanzado</td>
+                        </tr>
+                        <tr>
+                            <th class="playfair-display">Git y GitHub</th>
+                            <td class="martel-semibold">Intermedio</td>
+                        </tr>
+                        <tr>
+                            <th class="playfair-display">Adobe XD</th>
+                            <td class="martel-semibold">Básico</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-    <form action="#" method="post">
-        <label for="nombre">Nombre completo:</label>
-        <input type="text" id="nombre" name="nombre" required>
+            <section id="educacion" aria-labelledby="education-title">
+                <h2 class="martel-semibold" id="education-title">Educación</h2>
+                <ul>
+                    <li>Colegio Juan Emilio Murillo Landin</li>
+                    <li>Escuela Superior Politécnica del Litoral (Actual)</li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3364341280774!2d-79.96705223042282!3d-2.147557464825397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13d1149cd9fd%3A0x355b20fc7f9fc1e4!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral!5e0!3m2!1ses!2sec!4v1716124824394!5m2!1ses!2sec" width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
 
-        <label for="motivo">Motivo de contacto:</label>
-        <select id="motivo" name="motivo" required>
-            <option value="" disabled selected>Selecciona una opción</option>
-            <option value="consulta">Consulta</option>
-            <option value="trabajo">Oferta de trabajo</option>
-            <option value="otro">Otro</option>
-        </select>
+            <section id="referencias">
+                <h2>Referencias</h2>
+                <article>
+                    <blockquote>
+                        "Julian demuestra gran compromiso y dedicación en cada proyecto, entregando resultados confiables y de calidad."
+                    </blockquote>
+                    <p><strong>Ana Gómez</strong><br>Coordinadora de Desarrollo en SoftInnovate<br>Trabajó con Julian en proyectos de aplicaciones móviles.</p>
+                </article>
+                <article>
+                    <blockquote>
+                        "Su creatividad y habilidades técnicas son un gran aporte para cualquier equipo de trabajo."
+                    </blockquote>
+                    <p><strong>Miguel Torres</strong><br>Jefe de Tecnología en DataSolutions<br>Colaboró con Julian en el diseño y desarrollo de plataformas web.</p>
+                </article>
+                <article>
+                    <blockquote>
+                        "Julian destaca por su proactividad y excelente comunicación, lo que facilita el trabajo en equipo."
+                    </blockquote>
+                    <p><strong>Sofía Martínez</strong><br>Líder de Proyectos en CreativaLab<br>Supervisó a Julian durante su participación en iniciativas de innovación tecnológica.</p>
+                </article>
+            </section>
 
-        <fieldset>
-            <legend>¿Cómo prefieres ser contactado?</legend>
-            <input type="radio" id="email" name="contacto" value="email" required>
-            <label for="email">Email</label>
-            <input type="radio" id="telefono" name="contacto" value="telefono" required>
-            <label for="telefono">Teléfono</label>
-        </fieldset>
-
-        <label for="intereses">Áreas de interés:</label>
-        <select id="intereses" name="intereses[]" multiple required>
-            <option value="desarrollo">Desarrollo</option>
-            <option value="diseño">Diseño</option>
-            <option value="marketing">Marketing</option>
-            <option value="otros">Otros</option>
-        </select>
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-    <div style="width:100%;max-width:600px;margin:20px 0;">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019123456789!2d-122.41941548468123!3d37.7749297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5b0e7b1b%3A0x4c9b7b7b7b7b7b7b!2sSan+Francisco%2C+CA%2C+EE.+UU.!5e0!3m2!1ses!2smx!4v1684191234567!5m2!1ses!2smx"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section id="contacto">
+                <h2 class="subtitle martel-semibold">Contacto</h2>
+                <address>
+                    <p>Correo: <a href="mailto:julianruiz@email.com">julianruiz@email.com</a></p>
+                    <p>Teléfono: <a href="tel:+593991234567">+593 99 123 4567</a></p>
+                </address>
+            </section>
+        </main>
     </div>
-</section>
-<section id="referencias">
-    <h2>Referencias</h2>
-    <article>
-        <blockquote>
-            "Julian es un profesional dedicado y siempre entrega resultados de alta calidad."
-        </blockquote>
-        <p>
-            <strong>María López</strong><br>
-            Gerente de Proyectos en TechSolutions<br>
-            Trabajó con Julian durante 2 años en el desarrollo de aplicaciones web, destacando su responsabilidad y compromiso.
-        </p>
-    </article>
-    <article>
-        <blockquote>
-            "Su capacidad para resolver problemas y trabajar en equipo es excepcional."
-        </blockquote>
-        <p>
-            <strong>Carlos Méndez</strong><br>
-            Líder Técnico en Innovatech<br>
-            Colaboró con Julian en varios proyectos de software, resaltando su actitud proactiva y habilidades técnicas.
-        </p>
-    </article>
-    <article>
-        <blockquote>
-            "Recomiendo a Julian por su ética profesional y excelente comunicación."
-        </blockquote>
-        <p>
-            <strong>Laura Fernández</strong><br>
-            Directora de Recursos Humanos en Creativa S.A.<br>
-            Supervisó a Julian en procesos de selección y capacitación, valorando su disposición y trato cordial.
-        </p>
-    </article>
-</section>
-    </main>
+
+    <section aria-labelledby="contactform-title" style="margin: 2rem 0;">
+        <h2 class="martel-semibold" id="contactform-title">Para contactarme:</h2>
+        <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1em; max-width: 400px; margin: 0 auto;">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="consulta">Consulta</option>
+                <option value="proyecto">Proyecto</option>
+                <option value="propuesta_laboral">Propuesta Laboral</option>
+            </select>
+
+            <fieldset style="border: none; padding: 0;">
+                <legend>Género:</legend>
+                <label><input type="radio" name="genero" value="masculino" required /> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino" /> Femenino</label>
+                <label><input type="radio" name="genero" value="otro" /> Otro</label>
+            </fieldset>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Juan Pérez. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Julian Ruiz</p>
     </footer>
 </body>
+
 </html>
